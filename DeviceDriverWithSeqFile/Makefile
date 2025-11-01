@@ -1,5 +1,4 @@
-obj-m += modulethree.o
-modulethree-objs := stop.o start.o parm.o
+obj-m += procseq.o
 
 PWD := $(CURDIR)
 KDIR := /lib/modules/$(shell uname -r)/build
